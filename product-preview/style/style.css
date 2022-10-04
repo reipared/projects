@@ -1,0 +1,101 @@
+
+:root {
+    --color-primary-darkCyan: hsl(158, 36%, 37%);
+    --color-primary-cream: hsl(30, 38%, 92%);
+    --color-neutral-veryDarkBlue: hsl(212, 21%, 14%);
+    --color-neutral-darkGrayishBlue: hsl(228, 12%, 48%);
+    --color-neutral-white: hsl(0, 0%, 100%);
+    --font-size-paragraph: 14px;
+}
+
+.Body {
+    background-color: var(--color-primary-cream);
+    overflow: auto;
+    position:static;
+}
+
+.card {
+    height: 450px;
+    margin: 100px auto;
+    display: flex;
+    overflow: hidden;
+    max-width: 600px;
+    align-items: stretch;
+    justify-content: space-around;
+    
+}
+
+.ProductImg {
+    max-width: 530px;
+    left: 0;
+	margin: 10px 0;
+	position: relative;
+	top: 0;
+	transform: none;
+}
+
+.container {
+    padding: 2px 16px;
+    overflow: hidden;
+}
+
+.Preview {
+    display: flex;
+    align-self: stretch;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-neutral-darkGrayishBlue);
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.Gabrielle {
+    display: flex;
+    justify-content: center;
+    color: var(--color-neutral-veryDarkBlue);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Description {
+    font-family: 'Montserrat', sans-serif;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Price {
+    font-family: 'Fraunces', serif;
+    color: var(--color-primary-darkCyan);
+}
+
+.Discount {
+    font-family: 'Fraunces', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.addToCart {
+    font-family: 'Fraunces', serif;
+    border-radius: 8px;
+    background-color: var(--color-primary-darkCyan);
+    display: inline-block;
+    border-radius: 8px;
+    margin: 0 0 0 200px;
+    
+}
+
+.button {
+    font-family: 'Fraunces', serif;
+    background-color: var(--color-primary-darkCyan);
+    border-radius: 8px;
+    border-color: var(--color-primary-darkCyan);
+    color: var(--color-neutral-white)
+}
+
+.attribution {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-neutral-darkGrayishBlue);
+    display: flex;
+    justify-content: flex-end;
+}
