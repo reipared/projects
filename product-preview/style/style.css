@@ -37,6 +37,7 @@
 .container {
     padding: 2px 16px;
     overflow: hidden;
+    
 }
 
 .Preview {
@@ -66,31 +67,48 @@
 .Price {
     font-family: 'Fraunces', serif;
     color: var(--color-primary-darkCyan);
+    font-size: 35px;
+    padding-bottom: 3rem;
+    margin-bottom: -2rem;
 }
 
 .Discount {
     font-family: 'Fraunces', serif;
+    color: var(--color-neutral-darkGrayishBlue);
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    font-size: 13px;
+    justify-content: center;
+    
+}
+
+.buttonContainer{
+    background-color: var(--color-primary-darkCyan);
+    border: none;
+    color: var(--color-neutral-white);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 150px;
+    margin-bottom: 5rem;
 }
 
 .addToCart {
     font-family: 'Fraunces', serif;
-    border-radius: 8px;
     background-color: var(--color-primary-darkCyan);
-    display: inline-block;
     border-radius: 8px;
-    margin: 0 0 0 200px;
-    
+    width: 150px;
 }
 
 .button {
+    color: var(--color-neutral-white);
     font-family: 'Fraunces', serif;
+    display: inline-block;
     background-color: var(--color-primary-darkCyan);
-    border-radius: 8px;
-    border-color: var(--color-primary-darkCyan);
-    color: var(--color-neutral-white)
+    border: none;
 }
 
 .attribution {
